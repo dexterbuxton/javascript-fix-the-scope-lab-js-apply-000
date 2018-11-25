@@ -1,7 +1,9 @@
-var myAnimal = 'cat'
-var yourAnimal = 'dog'
+var animal = 'dog'
 
 function myAnimal() {
+  if animal === 'dog' {
+    return 'cat'
+  } 
   return myAnimal
 }
 
